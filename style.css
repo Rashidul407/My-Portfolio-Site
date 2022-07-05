@@ -200,9 +200,11 @@ h2 {
 
 footer{
     text-align: center;
-    background-image: linear-gradient(#4ecdc4, #556270);
+    background-image: linear-gradient(black, black);
     padding-bottom: 40px;
     padding-top: 30px;
+    color: #ffffff;
+    
 }
 
 .year{
