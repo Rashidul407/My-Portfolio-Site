@@ -15,13 +15,16 @@
 
 }
 
-.head-inside {
+.head-inside-10 {
+    margin-top: 3.54rem;
+    margin-left: 2rem;
     width: 50%;
     text-align: justify;
+
 }
 
 .head-inside img {
-    width: 60%;
+    width: 80%;
 }
 
 h1 {
@@ -63,6 +66,8 @@ h2 {
 
 }
 
+
+
 .year {
     color: rgb(134, 191, 76);
 }
@@ -70,10 +75,11 @@ h2 {
 .body-part {
     display: flex;
     gap: 4rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+
     margin-bottom: 2rem;
     margin-top: 3.5rem;
+    width: 70%;
 }
 
 .box-one img {
@@ -86,9 +92,10 @@ h2 {
 }
 
 #one {
-    background-image: linear-gradient(#fffc00,#ffffff);
+    background-image: linear-gradient(#fffc00, #ffffff);
     padding: 5px;
     border-radius: 15px;
+    box-shadow: 5px 10px 20px red;
     width: 50%;
 }
 
@@ -96,6 +103,7 @@ h2 {
     background-image: linear-gradient(#ff00cc, #333399);
     padding: 5px;
     border-radius: 15px;
+    box-shadow: 5px 10px 20px orangered;
     width: 50%;
 }
 
@@ -103,5 +111,110 @@ h2 {
     background-image: linear-gradient(rgb(104, 69, 75), rgb(192, 184, 217));
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 5px 10px 20px limegreen;
     width: 50%;
+}
+
+.body-partII {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    margin-top: 4rem;
+    width: 70%;
+}
+
+.body img {
+    width: 50%;
+}
+
+.body-1 {
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+
+.one1 {
+    font-size: 40px;
+}
+
+.one2 {
+
+    font-size: 60px;
+
+}
+
+.class{
+    text-decoration: none;
+    color: #010a05;
+    font-weight:200;
+    background-color: #feb47b;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px gray;
+}
+
+/*body-part-IV*/
+
+.body-part-IV {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-left: 15%;
+    padding-right: 5%;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.know {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.global {
+    font-size: 38px;
+    color: darkolivegreen;
+
+}
+
+.small {
+    font-weight: 400;
+}
+
+.step-4 img {
+    width: 100%;
+    height: 520px;
+}
+.step-4 a{
+    margin-top: 5rem;
+}
+
+.skill{
+    text-decoration: none;
+    font-weight: 500;
+    background-image: linear-gradient(#a1ffce, #faffd1);
+    color: blue;
+    margin: 5px 40px;
+    border-radius: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(#4ecdc4, #556270);
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.year{
+    color: crimson;
+}
+
+.year-1{
+    color: #fffc00;
+}
+
+.made{
+    color: #4ecd4e;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
